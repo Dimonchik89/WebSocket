@@ -1,0 +1,45 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "test popular free api",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --open",
+    "build": "webpack --mode=production"
+  },
+  "author": "Dmitriy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "concurrently": "^7.1.0",
+    "fs": "^0.0.1-security",
+    "nanoid": "^3.3.2",
+    "qs": "^6.10.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.1.2",
+    "redux-actions": "^2.6.5",
+    "redux-axios-middleware": "^4.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "reselect": "^4.1.5",
+    "ws": "^7.5.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.15",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
